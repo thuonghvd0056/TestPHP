@@ -34,7 +34,7 @@
                     </div>
                     <div class="name-product">
                         <h6>Shoe China</h6>
-                    </div>
+                    </div>.
                     <div class="image-product">
                         <img src="{{$food -> thumbnail}}">
                     </div>
