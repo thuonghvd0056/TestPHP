@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/product/create', 'ProductController@create');
-Route::post('/product/create', 'ProductController@store');
-Route::get('/product/list', 'ProductController@list');
 
-
+Route::resource('admin/product', 'CategoryController');

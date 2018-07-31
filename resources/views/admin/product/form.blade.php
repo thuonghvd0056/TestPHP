@@ -15,7 +15,7 @@
     <h1>Article form</h1>
     <div class="container">
         <div class="row">
-    <form action="/admin/product" method="post">
+    <form action="/admin/product" method="post" class="product">
         {{csrf_field()}}
         <div class="form-group">
             <label>Product Name :</label>

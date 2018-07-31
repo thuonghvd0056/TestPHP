@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Article form</h1>
+    <h1>Product form</h1>
     <div class="container">
         <div class="row">
     <form action="/admin/product/{{$obj->id}}" method="post">
